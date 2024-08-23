@@ -1,0 +1,53 @@
+/* src/styles/Quiz.css */
+/* Hover and Focus States */
+button,
+.option-btn {
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+  outline: none;
+}
+
+button:hover,
+.option-btn:hover {
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  opacity: 0.9;
+}
+
+button:focus,
+.option-btn:focus {
+  box-shadow: 0px 0px 5px 2px rgba(0, 123, 255, 0.5);
+}
+
+.app.light .option-btn:hover {
+  background-color: #ddd;
+}
+
+.app.dark .option-btn:hover {
+  background-color: #666;
+}
+
+
+.quiz-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .next-button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .next-button:hover {
+    background-color: #0056b3;
+  }
+  

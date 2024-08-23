@@ -1,0 +1,450 @@
+[
+    {
+        "id": 1,
+        "name": "General Knowledge",
+        "path": "general-knowledge",
+        "questions": [
+            {
+                "question": "What is the capital of France?",
+                "options": ["Paris", "London", "Berlin", "Madrid"],
+                "answer": "Paris"
+            },
+            {
+                "question": "Who wrote '1984'?",
+                "options": ["George Orwell", "Aldous Huxley", "Mark Twain", "Jane Austen"],
+                "answer": "George Orwell"
+            },
+            {
+                "question": "What is the largest ocean on Earth?",
+                "options": ["Atlantic", "Indian", "Pacific", "Arctic"],
+                "answer": "Pacific"
+            },
+            {
+                "question": "Which planet is known as the Red Planet?",
+                "options": ["Mars", "Venus", "Jupiter", "Saturn"],
+                "answer": "Mars"
+            },
+            {
+                "question": "Who painted the Mona Lisa?",
+                "options": ["Leonardo da Vinci", "Michelangelo", "Raphael", "Donatello"],
+                "answer": "Leonardo da Vinci"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Science",
+        "path": "science",
+        "questions": [
+            {
+                "question": "What is the chemical symbol for water?",
+                "options": ["O2", "H2O", "CO2", "NaCl"],
+                "answer": "H2O"
+            },
+            {
+                "question": "What gas do plants absorb during photosynthesis?",
+                "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+                "answer": "Carbon Dioxide"
+            },
+            {
+                "question": "What is the speed of light?",
+                "options": ["300,000 km/s", "150,000 km/s", "450,000 km/s", "600,000 km/s"],
+                "answer": "300,000 km/s"
+            },
+            {
+                "question": "Who developed the theory of relativity?",
+                "options": ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Nikola Tesla"],
+                "answer": "Albert Einstein"
+            },
+            {
+                "question": "What is the powerhouse of the cell?",
+                "options": ["Nucleus", "Mitochondria", "Ribosome", "Chloroplast"],
+                "answer": "Mitochondria"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "True/False Quiz",
+        "path": "true-false",
+        "questions": [
+            {
+                "question": "The Earth is flat.",
+                "options": ["True", "False"],
+                "answer": "False"
+            },
+            {
+                "question": "The chemical symbol for gold is Au.",
+                "options": ["True", "False"],
+                "answer": "True"
+            },
+            {
+                "question": "There are 26 letters in the English alphabet.",
+                "options": ["True", "False"],
+                "answer": "True"
+            },
+            {
+                "question": "The capital of Australia is Sydney.",
+                "options": ["True", "False"],
+                "answer": "False"
+            },
+            {
+                "question": "Humans can breathe in space without a spacesuit.",
+                "options": ["True", "False"],
+                "answer": "False"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Mixed Multiple Choice",
+        "path": "mixed-multiple-choice",
+        "questions": [
+            {
+                "question": "Which of the following are programming languages?",
+                "options": ["Python", "HTML", "JavaScript", "CSS"],
+                "answer": ["Python", "JavaScript"]
+            },
+            {
+                "question": "Which countries are in Europe?",
+                "options": ["Germany", "Brazil", "Canada", "India"],
+                "answer": ["Germany"]
+            },
+            {
+                "question": "Which of the following are mammals?",
+                "options": ["Shark", "Dolphin", "Eagle", "Bat"],
+                "answer": ["Dolphin", "Bat"]
+            },
+            {
+                "question": "Which planets are gas giants?",
+                "options": ["Mercury", "Earth", "Jupiter", "Saturn"],
+                "answer": ["Jupiter", "Saturn"]
+            },
+            {
+                "question": "Which of these are primary colors?",
+                "options": ["Red", "Green", "Blue", "Yellow"],
+                "answer": ["Red", "Blue", "Yellow"]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Mix-Quesiton",
+        "path": "mix",
+        "questions": [
+            {
+                "question": "Who was the first President of the United States?",
+                "options": ["George Washington", "Thomas Jefferson", "Abraham Lincoln", "John Adams"],
+                "answer": "George Washington"
+            },
+            {
+                "question": "India Got Indpendence in 1947?",
+                "options": ["True","False"],
+                "answer": "True"
+            },
+            {
+                "question": "What was the name of the ship that sank in 1912 after hitting an iceberg?",
+                "options": ["Titanic", "Lusitania", "Olympic", "Britannic"],
+                "answer": "Titanic"
+            },
+            {
+                "question": "Who was known as the Maid of Orléans?",
+                "options": ["Joan of Arc", "Marie Antoinette", "Catherine the Great", "Cleopatra"],
+                "answer": "Joan of Arc"
+            },
+            {
+                "question": "Which countries are in Asia",
+                "options": ["India", "Pakistan", "Greeks", "Mayans"],
+                "answer": ["India", "Pakistan"]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Math",
+        "path": "math",
+        "questions": [
+            {
+                "question": "What is the value of pi?",
+                "options": ["3.14", "2.71", "1.41", "1.73"],
+                "answer": "3.14"
+            },
+            {
+                "question": "What is 5 + 7?",
+                "options": ["11", "12", "13", "14"],
+                "answer": "12"
+            },
+            {
+                "question": "What is the square root of 16?",
+                "options": ["2", "3", "4", "5"],
+                "answer": "4"
+            },
+            {
+                "question": "What is the formula for the area of a circle?",
+                "options": ["πr^2", "2πr", "πd", "πr"],
+                "answer": "πr^2"
+            },
+            {
+                "question": "What is the value of 2^3?",
+                "options": ["6", "7", "8", "9"],
+                "answer": "8"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Geography",
+        "path": "geography",
+        "questions": [
+            {
+                "question": "Which is the largest continent?",
+                "options": ["Asia", "Africa", "Europe", "Antarctica"],
+                "answer": "Asia"
+            },
+            {
+                "question": "What is the capital of Japan?",
+                "options": ["Tokyo", "Beijing", "Seoul", "Bangkok"],
+                "answer": "Tokyo"
+            },
+            {
+                "question": "Which river is the longest in the world?",
+                "options": ["Amazon", "Nile", "Yangtze", "Mississippi"],
+                "answer": "Nile"
+            },
+            {
+                "question": "Which desert is the largest in the world?",
+                "options": ["Sahara", "Gobi", "Kalahari", "Arctic"],
+                "answer": "Sahara"
+            },
+            {
+                "question": "Which ocean is the deepest?",
+                "options": ["Pacific", "Atlantic", "Indian", "Southern"],
+                "answer": "Pacific"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Sports",
+        "path": "sports",
+        "questions": [
+            {
+                "question": "How many players are there in a football team?",
+                "options": ["11", "12", "13", "14"],
+                "answer": "11"
+            },
+            {
+                "question": "Which country won the FIFA World Cup in 2018?",
+                "options": ["Brazil", "Germany", "France", "Argentina"],
+                "answer": "France"
+            },
+            {
+                "question": "Who holds the record for the most home runs in a single MLB season?",
+                "options": ["Barry Bonds", "Babe Ruth", "Hank Aaron", "Mark McGwire"],
+                "answer": "Barry Bonds"
+            },
+            {
+                "question": "In which sport is the term 'love' used?",
+                "options": ["Tennis", "Football", "Basketball", "Cricket"],
+                "answer": "Tennis"
+            },
+            {
+                "question": "Who has won the most Olympic gold medals?",
+                "options": ["Michael Phelps", "Usain Bolt", "Carl Lewis", "Mark Spitz"],
+                "answer": "Michael Phelps"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Movies",
+        "path": "movies",
+        "questions": [
+            {
+                "question": "Who directed 'Inception'?",
+                "options": ["Christopher Nolan", "Steven Spielberg", "James Cameron", "Quentin Tarantino"],
+                "answer": "Christopher Nolan"
+            },
+            {
+                "question": "Which movie won the Academy Award for Best Picture in 2020?",
+                "options": ["Parasite", "1917", "Joker", "Once Upon a Time in Hollywood"],
+                "answer": "Parasite"
+            },
+            {
+                "question": "Who played the role of Jack in 'Titanic'?",
+                "options": ["Leonardo DiCaprio", "Brad Pitt", "Tom Cruise", "Johnny Depp"],
+                "answer": "Leonardo DiCaprio"
+            },
+            {
+                "question": "Which movie features the character 'Darth Vader'?",
+                "options": ["Star Wars", "Harry Potter", "Lord of the Rings", "The Matrix"],
+                "answer": "Star Wars"
+            },
+            {
+                "question": "Who directed the movie 'Pulp Fiction'?",
+                "options": ["Quentin Tarantino", "Martin Scorsese", "Francis Ford Coppola", "Ridley Scott"],
+                "answer": "Quentin Tarantino"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Music",
+        "path": "music",
+        "questions": [
+            {
+                "question": "Who is known as the King of Pop?",
+                "options": ["Elvis Presley", "Michael Jackson", "Prince", "Madonna"],
+                "answer": "Michael Jackson"
+            },
+            {
+                "question": "Which band released the album 'Abbey Road'?",
+                "options": ["The Beatles", "The Rolling Stones", "Led Zeppelin", "Pink Floyd"],
+                "answer": "The Beatles"
+            },
+            {
+                "question": "Who is the lead singer of the band 'Queen'?",
+                "options": ["Freddie Mercury", "David Bowie", "Mick Jagger", "Robert Plant"],
+                "answer": "Freddie Mercury"
+            },
+            {
+                "question": "Which artist sang 'Rolling in the Deep'?",
+                "options": ["Adele", "Beyoncé", "Taylor Swift", "Rihanna"],
+                "answer": "Adele"
+            },
+            {
+                "question": "What instrument does Yo-Yo Ma play?",
+                "options": ["Piano", "Violin", "Cello", "Guitar"],
+                "answer": "Cello"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Technology",
+        "path": "technology",
+        "questions": [
+            {
+                "question": "Who is the founder of Microsoft?",
+                "options": ["Steve Jobs", "Elon Musk", "Bill Gates", "Larry Page"],
+                "answer": "Bill Gates"
+            },
+            {
+                "question": "What is the main programming language used for Android development?",
+                "options": ["Java", "Swift", "C#", "Python"],
+                "answer": "Java"
+            },
+            {
+                "question": "Which company developed the iPhone?",
+                "options": ["Apple", "Samsung", "Google", "Microsoft"],
+                "answer": "Apple"
+            },
+            {
+                "question": "What does CPU stand for?",
+                "options": ["Central Processing Unit", "Central Performance Unit", "Central Power Unit", "Computer Processing Unit"],
+                "answer": "Central Processing Unit"
+            },
+            {
+                "question": "What is the name of Google's cloud computing service?",
+                "options": ["Azure", "AWS", "Google Cloud", "IBM Cloud"],
+                "answer": "Google Cloud"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Literature",
+        "path": "literature",
+        "questions": [
+            {
+                "question": "Who wrote 'Hamlet'?",
+                "options": ["William Shakespeare", "Charles Dickens", "J.K. Rowling", "Mark Twain"],
+                "answer": "William Shakespeare"
+            },
+            {
+                "question": "Who is the author of 'Pride and Prejudice'?",
+                "options": ["Jane Austen", "Emily Brontë", "George Eliot", "Virginia Woolf"],
+                "answer": "Jane Austen"
+            },
+            {
+                "question": "Which novel begins with the line 'Call me Ishmael'?",
+                "options": ["Moby-Dick", "War and Peace", "Great Expectations", "The Great Gatsby"],
+                "answer": "Moby-Dick"
+            },
+            {
+                "question": "Who wrote 'The Catcher in the Rye'?",
+                "options": ["J.D. Salinger", "Ernest Hemingway", "F. Scott Fitzgerald", "Harper Lee"],
+                "answer": "J.D. Salinger"
+            },
+            {
+                "question": "Which author created the character Sherlock Holmes?",
+                "options": ["Arthur Conan Doyle", "Agatha Christie", "Raymond Chandler", "Dashiell Hammett"],
+                "answer": "Arthur Conan Doyle"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Art",
+        "path": "art",
+        "questions": [
+            {
+                "question": "Who painted the Mona Lisa?",
+                "options": ["Vincent Van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
+                "answer": "Leonardo da Vinci"
+            },
+            {
+                "question": "Which artist is known for 'The Starry Night'?",
+                "options": ["Vincent Van Gogh", "Pablo Picasso", "Claude Monet", "Salvador Dalí"],
+                "answer": "Vincent Van Gogh"
+            },
+            {
+                "question": "Which painting is located on the ceiling of the Sistine Chapel?",
+                "options": ["The Last Supper", "The Creation of Adam", "Guernica", "The Persistence of Memory"],
+                "answer": "The Creation of Adam"
+            },
+            {
+                "question": "Which artist is known for the 'Campbell's Soup Cans'?",
+                "options": ["Andy Warhol", "Roy Lichtenstein", "Jasper Johns", "Robert Rauschenberg"],
+                "answer": "Andy Warhol"
+            },
+            {
+                "question": "Who painted 'The Persistence of Memory'?",
+                "options": ["Salvador Dalí", "Pablo Picasso", "Joan Miró", "René Magritte"],
+                "answer": "Salvador Dalí"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Politics",
+        "path": "politics",
+        "questions": [
+            {
+                "question": "Who is the current President of the United States?",
+                "options": ["Joe Biden", "Donald Trump", "Barack Obama", "George W. Bush"],
+                "answer": "Joe Biden"
+            },
+            {
+                "question": "Which U.S. President was known for the New Deal?",
+                "options": ["Franklin D. Roosevelt", "Theodore Roosevelt", "Woodrow Wilson", "Harry S. Truman"],
+                "answer": "Franklin D. Roosevelt"
+            },
+            {
+                "question": "Who was the first female Prime Minister of the United Kingdom?",
+                "options": ["Margaret Thatcher", "Theresa May", "Indira Gandhi", "Angela Merkel"],
+                "answer": "Margaret Thatcher"
+            },
+            {
+                "question": "Which U.S. President resigned after the Watergate scandal?",
+                "options": ["Richard Nixon", "Gerald Ford", "Jimmy Carter", "Ronald Reagan"],
+                "answer": "Richard Nixon"
+            },
+            {
+                "question": "Which U.S. President was assassinated in 1963?",
+                "options": ["John F. Kennedy", "Lyndon B. Johnson", "Dwight D. Eisenhower", "Harry S. Truman"],
+                "answer": "John F. Kennedy"
+            }
+        ]
+    }
+]

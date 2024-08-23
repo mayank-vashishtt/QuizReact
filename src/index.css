@@ -1,0 +1,338 @@
+/* Add this to your existing index.css */
+/* src/index.css */
+/* Hover and Focus States */
+button,
+.option-btn {
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+  outline: none;
+}
+
+button:hover,
+.option-btn:hover {
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  opacity: 0.9;
+}
+
+button:focus,
+.option-btn:focus {
+  box-shadow: 0px 0px 5px 2px rgba(0, 123, 255, 0.5);
+}
+
+.app.light .option-btn:hover {
+  background-color: #ddd;
+}
+
+.app.dark .option-btn:hover {
+  background-color: #666;
+}
+
+.app.light .main-heading {
+  color: #333; /* Light theme text color */
+}
+
+.app.dark .main-heading {
+  color: #f0f2f5; /* Dark theme text color */
+}
+
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.light {
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+body.dark {
+  background-color: #1c1e22;
+  color: #f0f2f5;
+}
+
+.app.light .quiz-card,
+.app.light .home-container,
+.app.light .summary-container {
+  background-color: #fff;
+}
+
+.app.dark .quiz-card,
+.app.dark .home-container,
+.app.dark .summary-container {
+  background-color: #444;
+  color: #fff;
+}
+
+button {
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.app.light button {
+  background-color: #0056b3;
+  color: #ffffff;
+}
+
+.app.dark button {
+  background-color: #444;
+  color: #ffffff;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Next Button Styles */
+.next-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+.next-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Progress Bar */
+.progress-bar {
+  height: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background-color: #007bff;
+  transition: width 0.4s ease;
+}
+
+/* Option Button */
+.option-btn.correct {
+  background-color: #28a745 !important;
+  color: #fff !important;
+}
+
+.option-btn.wrong {
+  background-color: #dc3545 !important;
+  color: #fff !important;
+}
+
+/* Question Card Styles */
+
+.question-card {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  margin: 40px auto;
+}
+
+.question {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.options-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.option-btn {
+  background-color: #f0f2f5;
+  border: 1px solid #ddd;
+  padding: 15px 20px;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  width: 48%;
+}
+
+.option-btn:hover {
+  background-color: #e2e6ea;
+}
+
+.option-btn.correct {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.option-btn.wrong {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.feedback {
+  font-size: 1.25rem;
+  margin-top: 20px;
+}
+
+.feedback.correct {
+  color: #28a745;
+}
+
+.feedback.wrong {
+  color: #dc3545;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .option-btn {
+      width: 100%;
+  }
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Home Page Styles */
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.main-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.quiz-slide {
+  padding: 15px;
+}
+
+.quiz-item {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  padding: 30px;
+  border-radius: 15px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.quiz-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-item h3 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #0056b3;
+}
+
+.start-quiz-btn {
+  background-color: #0056b3;
+  color: #ffffff;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.start-quiz-btn:hover {
+  background-color: #003d82;
+}
+
+/* Slick Carousel Customization */
+.slick-dots li button:before {
+  color: #0056b3; /* Change the color of the dots */
+  font-size: 12px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #0056b3; /* Change the color of the navigation arrows */
+}
+
+/* Quiz Page Styles */
+.quiz {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Summary Page Styles */
+.summary-container {
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.summary-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.score-display {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.home-btn {
+  background-color: #28a745;
+  color: #ffffff;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.home-btn:hover {
+  background-color: #218838;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-heading {
+      font-size: 2rem;
+  }
+
+  .quiz-item h3 {
+      font-size: 1.5rem;
+  }
+
+  .quiz {
+      margin: 20px auto;
+      padding: 20px;
+  }
+
+  .summary-heading {
+      font-size: 2rem;
+  }
+
+  .score-display {
+      font-size: 1.25rem;
+  }
+}
